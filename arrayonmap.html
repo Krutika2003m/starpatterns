@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onmap</title>
+</head>
+<body>
+    <ul id="listtoday">
+
+    </ul>
+    <pre>
+        CRUD->
+        
+    </pre>
+
+
+    <script>
+        const todaysTask=["lunch","panipuri"]
+        document.getElementById("listtoday").innerHTML=todaysTask.map((task)=>
+                                                            <li>$task</li>
+        )
+    </script>
+</body>
+</html>
